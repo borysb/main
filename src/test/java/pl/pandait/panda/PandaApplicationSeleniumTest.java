@@ -40,7 +40,7 @@ public class PandaApplicationSeleniumTest {
         
         // Alternatywnie, gdyby DNS dockera nie komunikował się poprawnie
         driver.get(String.format("http://192.168.44.44:%s", port));
-
+        //dodatkowa linia testowa
         //Czekamy 2 sekundy
         Thread.sleep(2000);
     }
